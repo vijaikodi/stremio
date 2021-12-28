@@ -2,7 +2,7 @@ install on stremio using this link
 
  -https://vijai-stremio.herokuapp.com/manifest.json
 
-to update the app
+To update the app
 
 Install the Heroku CLI
 
@@ -20,6 +20,15 @@ Use Git to clone vijai-stremio's source code to your local machine.
 $ heroku git:clone -a vijai-stremio
 $ cd vijai-stremio
 ```
+
+Activate virtual environment
+
+```
+Python -m venv venv
+cd scripts/activate.bat
+pip install -r requirements.txt
+```
+
 
 Deploy your changes
 
